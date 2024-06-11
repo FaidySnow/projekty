@@ -1,0 +1,52 @@
+body {
+    background: #f9f9f9;
+    color: #414042;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+    min-width: 960px;
+}
+
+body > header {
+    height: 80px;
+    width: 100%;
+    background: #515355;
+    color: white;
+    display: flex;
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    
+}
+
+nav ul a:hover,
+.aktivni a {
+    border-bottom: 2px solid #EF6534;
+}
+
+.cistic {
+    clear: both;
+}
+
+table  {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}

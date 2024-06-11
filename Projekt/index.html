@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidence</title>
+    <link rel="stylesheet" href="css/styl.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="aktivni"><a href="index.html">Pojištenci</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Pojištenci</h1>
+
+    <table id="tabule">
+        <thead>
+            <tr>
+                <th>Jmeno a Přijmení </th>
+                <th>Telefon</th>
+                <th>Věk</th>
+            </tr>
+        </thead>
+    </table>
+    <h2>Nový pojištěnec</h2>
+    <div class="novy-pojistenec">
+        <form action="#" onsubmit="">
+            <input type="text" id="jmeno" placeholder="Vyplňte jmeno">
+            <input type="text" id="prijmeni" placeholder="Vyplňte příjmení"><br>
+            <input type="number" id="vek" placeholder="Vyplňte věk">
+            <input type="number" id="telefon" placeholder="Vyplňte telefonní číslo"><br>
+            <input type="submit" id="vytvorit-pojistenec" value="Uložit">
+         </form>
+    </div>
+    <div id="seznam-pojistencu">
+        <script src="js/vytvoreni.js"></script>
+        <script src="js/zaznam.js"></script>
+        <script src="js/obsluha.js"></script>
+    </div>
+
+</body>
+</html>
